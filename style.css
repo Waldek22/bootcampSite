@@ -1,0 +1,310 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+* {
+	box-sizing: border-box;	
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+.flex-center {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+#navbar {
+	margin-top: 10px;	
+}
+#search {
+	background: transparent;
+	border: 1px solid #0dd0be;
+	margin: 0;
+}
+.navbar-brand {
+	padding: 0 15px;	
+}
+.navbar-default {
+	position: absolute;
+	width: 100%;
+	background: transparent;
+	border: 0;
+}
+.navbar-nav {
+	font-size: 1.4em;	
+}
+.navbar-default .navbar-nav>.open>a:focus {
+	color: 	#52ff0d;
+	background: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #0dd0be;
+}	
+.navbar-default .navbar-nav>li:hover a {
+	color: #8ef1e7;
+}	
+.navbar-default .navbar-nav>li>a:focus{
+	color: #52ff0d;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: transparent;
+	color: #52ff0d;
+}	
+.dropdown-menu>li>a:hover {
+	background: #001325;	
+}
+.dropdown-menu>li>a {
+	color: #0dd0be;	
+}
+.dropdown-menu {
+	background: transparent;	
+}
+#search-mobile {
+	display: none;	
+}
+#btn-jumbotron {
+    color: #fff;
+    background-color: transparent;
+    border: solid 2px #0dd0be;
+    width: 180px;
+    height: 50px;
+    font-size: 1.5em;
+}
+.jumbotron {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 90px;
+	margin-bottom: 0;
+	height: 70vh;
+	text-align: center;	
+	background: url("http://www.motionbackgroundsforfree.com/wp-content/uploads/2012/02/Screen-shot-2012-02-16-at-10.00.01-AM.png") fixed;
+	background-size: cover;
+	color: white;
+}
+h1>small {
+	color: 	#0dd0be;
+}
+#portfolio>.row>.col-md-3 {
+	padding: 25px 10px;	
+}
+.portfolio-info {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 25%;
+	background: #0dd0be;
+	color: #fff;
+	z-index: 1;
+	bottom: 0;
+	padding-top: 20px;
+	transform: translateY(100%);
+	transition: .2s;
+	text-align: center;
+}
+.portfolio-info>.h4 {
+	margin-bottom: 25px;	
+}
+.margin {
+	overflow: hidden;
+	position: relative;
+}
+.margin>.img-responsive {
+	transition: all 5s ease-in-out;
+	z-index: 0;
+}
+.margin>.img-responsive:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);	
+}
+.margin:hover .portfolio-info {
+	transform: translateY(0);
+}
+th {
+	text-align: center;	
+}
+#technologies {
+	background: #1b2b3a;
+	color: white;
+}
+#technologies>.container>.row> .col-md-4, .col-md-8 {
+	padding: 20px;	
+}
+#technologies>.container>.row:last-of-type {
+	margin-bottom: 30px;	
+}
+.line {
+	content: "";
+	max-width: 700px;
+	margin: 30px auto;
+	border-top: 1px solid #0dd0be;
+	height: 1px;
+}
+#price-table {
+	margin: 30px auto;	
+}
+#visit {
+	height: 70vh;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ),
+	url("http://www.develop-online.net/files/images/news/Studio%20photos/Goodgame%20Studios/Goodgame_Studios_001_1400x700.jpg") fixed;	
+	background-size: cover;
+}
+#visit-us-img {
+	height: 25vw;
+}
+.media {
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.media-body>h2 {
+	color: #0dd0be;
+}
+.employee>h2 {
+	padding-bottom: 20px;	
+}
+.employee>.text-center>h2 {
+	color:	#0dd0be;
+}
+.img-thumbnail {
+	border-radius: 50%;	
+}
+#contact-box {
+	max-width: 1200px;
+	margin: 20px auto;
+	border: 1px solid #7ba3c5;
+	border-radius: 5px;
+	background: url("http://shortenthegap.com/wp-content/uploads/2013/12/contact-opus-background-11.jpg");
+	color: white;
+}
+
+#input-area {
+	margin-top: 3px;	
+}
+#contact-form {
+	font-size: 1.5em;	
+}
+#contact-form>.flex-center {
+	align-items: stretch;
+}
+#contact-form>.flex-center>input, .form-control{
+	background: transparent;
+	border: 2px solid #0dd0be;
+	border-radius: 4px;
+	padding: 5px 10px;
+	margin: 15px 0;
+}
+.form-control {
+	margin-top: 5px;
+	font-size: 1em;
+}
+.blue-button {
+	margin: 10px 0;	
+	width: 150px;
+	float: right;
+	background: transparent;
+	border: 2px solid #0dd0be;
+	border-radius: 4px;
+}
+.blue-button:hover {
+	background: #0dd0be;	
+}
+footer {
+	height: 100px;
+	background: #1b2b3a;
+	color: white;
+}
+@media (max-width: 1200px) {
+	#navbar {
+		width: 100%;	
+	}
+}
+@media (max-width: 1020px) {
+	#navbar {
+		width: 100%;	
+	}
+	#search-desktop {
+		display: none;
+	}
+	#search-mobile {
+		display: block;
+	}
+	.navbar-nav>li>.dropdown-menu {
+		background: transparent;	
+	}
+	.navbar-default .navbar-form {
+    margin: 0 auto;
+    background: transparent;
+}
+}
+@media (max-width: 768px) {
+	.navbar-default {
+		margin: 0;
+		background: #001325;
+		padding-bottom: 10px;
+		margin: 0;
+		position: relative;
+		border-bottom: 1px solid #0dd0be;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: 0;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background: transparent;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background: #0dd0be;	
+	}
+	.navbar-default .navbar-toggle {
+		border: 0;	
+	}
+	#search-desktop {
+		display: block;
+	}
+	#search-mobile {
+		display: none;
+	}
+	.portfolio-img {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+	.portfolio-info {
+	transform: translateY(0);
+}
+	.margin>img {
+		width: 100%;	
+	}
+	.img-responsive {
+		margin: 0 auto;	
+	}
+	#btn-contact-form {
+	margin: 10px auto;
+	float: none;
+	}
+	.blue-button {
+		text-align: center;
+	}
+	input {
+		width: 100%;	
+	}
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset ="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bootstrap</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container" id="navbar">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    		<div class="navbar-header">
+	      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        		<span class="sr-only">Toggle navigation</span>
+		        		<span class="icon-bar"></span>
+		    			<span class="icon-bar"></span>
+		        		<span class="icon-bar"></span>
+	      			</button>
+	      			<a class="navbar-brand" href="#">
+	      				<img alt="Brand" src="http://placehold.it/200x50">
+	      			</a>
+	    		</div>
+	
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    			 <ul class="nav navbar-nav">
+	    				 <li><a href="#">Our Team</a></li>
+	    				 <li><a href="#">Visit us</a></li>
+	    				 <li><a href="#">Prices</a></li>
+	    				 <li class="dropdown">
+	        			 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us <span class="caret"></span></a>
+	        				 <ul class="dropdown-menu">
+	            				<li><a href="#">link 1</a></li>
+	            				<li><a href="#">link 2</a></li>
+					            <li><a href="#">link 3</a></li>
+	          				</ul>
+	        			</li>
+	    			 </ul>
+	    			 <ul class="nav navbar-nav navbar-right" id="search-mobile">
+	    			 	<li class="dropdown navbar-right">
+	        				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+	        				 <ul class="dropdown-menu">
+	            				<li><form class="navbar-form navbar-right" role="search">
+	        						<div class="form-group">
+	        							<input type="text" 				class="form-control" id			="search" placeholder			="Search">
+	    			 				</div>
+	    							</form>
+	    						</li>
+	          				</ul>
+	        			</li>
+	        		  </ul>
+	      			<form class="navbar-form navbar-right" role="search" id="search-desktop">
+	        			<div class="form-group">
+	        				<input type="text" class="form-control" id="search" placeholder="Search">
+	    			 	</div>
+	    			</form>
+				</div><!-- /.navbar-collapse -->
+	  		</div><!-- /.container-fluid -->
+		</nav>
+		<section class="jumbotron">
+			<h1>Really Fantastic Game Dev Studio <br><small>Let us do some stuff for you</small></h1>
+			<button type="button" class="btn btn-primary" id="btn-jumbotron">Learn More</button>
+		</section>
+		<section class="container" id="portfolio">
+			<h3 class="text-center h1">Our portfolio</h3>
+			<div class="row">
+		  		<div class="col-md-3 col-sm-6 portfolio-img">
+		  			<div class="margin">
+		  				<div class="portfolio-info">
+			  				<p class="h4">GTA V<br> Soundtrack developing</p>
+			  			</div>
+			  			<img src="http://www.okayplayer.com/wp-content/uploads/2013/09/gta-v-gangrene-bassheads-single-feat.jpg" class="img-responsive">
+		  			</div>
+		  		</div>
+		  		<div class="col-md-3 col-sm-6 portfolio-img">
+		  			<div class="margin">
+		  				<div class="portfolio-info">
+			  				<p class="h4">Assasin's Creed III<br>Help with script</p>
+			  			</div>
+		  				<img src="http://images.popmatters.com/misc_art/a/assasins-creed-3-poster-350.jpg" class="img-responsive">
+		  			</div>
+		  		</div>
+				 <div class="col-md-3 col-sm-6 portfolio-img">
+				 	<div class="margin">
+				 		<div class="portfolio-info">
+			  				<p class="h4">Series Call of Duty<br> Map design</p>
+			  			</div>
+				 		<img src="http://tecnologia.starmedia.com/imagenes/2013/08/apocalypse-ultimo-dlc-call-of-duty-black-ops-ii.jpg" class="img-responsive">
+				 	</div>
+				 </div>
+				 <div class="col-md-3 col-sm-6 portfolio-img">
+				 	<div class="margin">
+				 		<div class="portfolio-info">
+			  				<p class="h4">Heavy rain<br>Help with script</p>
+			  			</div>
+				 		<img src="http://25.media.tumblr.com/tumblr_mgdgnyucTj1rf1hqxo1_1357758009_cover.jpg" class="img-responsive">
+				 	</div>
+				 </div>
+			</div>
+		</section>
+		<section id="technologies">
+			<h2 class="h1 text-center">We are using this technologies</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="http://unity3ddev.net/public/unity3d/images/general/unity3d_logo.jpg" class="img-responsive">
+					</div>
+					<div class="col-md-8">
+						<h3 class="h2">Unity 3D</h3> 
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="line"></div>
+				<div class="row">
+					<div class="col-md-8">
+						<h3 class="h2">Unreal Engine 4</h3> 
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="col-md-4">
+						<img src="http://www.gry-online.pl/Galeria/Html/Wiadomosci/371306840.jpg" class="img-responsive">	
+					</div>
+				</div>
+				<div class="line"></div>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/3/36/CryEngine_Nex-Gen(4th_Generation)_-_15.png" class="img-responsive">
+					</div>
+					<div class="col-md-8">
+						<h3 class="h2">CryEngine</h3> 
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container employee">
+			<h2 class="text-center h1">Meet our team</h2>
+			<div class="row employee">
+        		<div class="col-md-3 text-center">
+        			<img src="http://andapo.com/wp-content/uploads/2016/01/Mocha-Coffee-Tone-Hair-Color-Asian-Women.jpg" alt="" class="img-responsive img-thumbnail">
+        			<h2>Wanda Percival</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        		</div>
+    			<div class="col-md-3 text-center">
+    				<img src="http://www.mens-hairstyle.com/wp-content/uploads/2013/08/Men-Medium-Length-hairstyles-2013-1.jpg" alt="" class="img-responsive img-thumbnail">
+    				<h2>Charles Gordon</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    			</div>
+        		<div class="col-md-3 text-center">
+        			<img src="http://poonpo.com/wp-content/uploads/2015/04/Short-twisted-hairstyle-women.jpg" alt="" class="img-responsive img-thumbnail">
+        			<h2>Serena Waller</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        		</div>
+        		<div class="col-md-3 text-center">
+        			<img src="http://g04.a.alicdn.com/kf/HTB1Mhl.IXXXXXb2XFXXq6xXFXXXG/Hot-new-2014-brand-caps-girl-summer-straw-hat-beach-sun-hats-for-women-Sexy-vogue.jpg" alt="" class="img-responsive img-thumbnail">
+        			<h2>Elaine Knowles</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        		</div>
+    		</div>
+		</section>	
+		<div id="visit">
+			<div class="container">
+				<div class="media">
+	    			<div class="media-left">
+	            		<img class="media-object" id="visit-us-img" src="http://vignette2.wikia.nocookie.net/fallout/images/f/f5/Vault-_-Boy_.png/revision/latest?cb=20151126150415" alt="visit us">
+	    			</div>
+	    			<div class="media-body">
+	        			<h2 class="media-heading">Visit us in our studio!!</h2>
+	        			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	        			<button type="button" class="btn btn-primary align-right blue-button" >Submit</button>
+	    			</div>
+				</div>
+			</div>
+		</div>
+			<section class="container text-center" id="price-table">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="h1">Prices</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<table class="table table-striped table-border table-hover ">
+						<thead>
+							<tr>
+								<th>Service</th>
+								<th>Desription</th>
+								<th>Turnaround time</th>
+								<th>Price</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Game logo</td>
+								<td>Creating uniqe logo for your game</td>
+								<td>7 days</td>
+								<td>$30-$50</td>
+							</tr>
+							<tr>
+								<td>Game script</td>
+								<td>Creating uniqe script for game. Price includes 3 revisions.</td>
+								<td> 14-21 days</td>
+								<td>$100-$400</td>
+							</tr>
+							<tr>
+								<td>Game soundtrack</td>
+								<td>We can create for you unique soundtrack for your game. Price includes 3 revisions.</td>
+								<td>14-21 days</td>
+								<td>$50-$100</td>
+							</tr>
+							<tr>
+								<td>Developing whole game</td>
+								<td>Developing your own whole game. Price includes 10 free revisions.</td>
+								<td>60-90 days</td>
+								<td>$1500-$10000</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+		<section id="contact-box">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center h1">Contact with us</h2>
+					<form>
+						<div class="row" id="contact-form">
+							<div class="col-xs-12 col-sm-offset-1 col-sm-4 flex-center">
+								<input type="email" name="email" placeholder="e-mail">
+								<input type="name" name="email" placeholder="Name">
+							</div>
+							<div class="col-xs-12 col-sm-6" id="input-area">
+							<textarea name="InputMessage" id="InputMessage" placeholder="your message" class="form-control" rows="4" required></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-11" id="contact-button">
+								<button type="button" class="btn btn-primary align-right blue-button" >Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="flex-center">
+			<p>Copyrightsⓒ Michał Waluś 2016</p>
+		</footer>
+	</body>
+</html>
